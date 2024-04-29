@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <title>SEO Optimization Strategies for Frontend Developers</title>
+
+    <meta
+      name="description"
+      content="Discover how to enhance the visibility and ranking of your web projects through 
+      search engine optimization. Expert tips and practical recommendations for web developers."
+    />
+
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/simple.css" />
+
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+
+    <link rel="icon" href="./assets/favicon.png" />
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <h3>SEO - Search Engine Optimization</h3>
+          <div>Koval Anastasia, 2024</div>
+        </section>
+        <section>
+          <section>What is SEO?</section>
+          <section>
+            <p>
+              SEO is a process of optimization a website to improve its
+              visibility and ranking in search engine results.
+            </p>
+            <video data-autoplay src="/assets/0428.mp4"></video>
+          </section>
+        </section>
+        <section>
+          <section>Search ranking factors</section>
+          <section>
+            <ul>
+              <li>Content</li>
+              <li>Popularity</li>
+              <li>User-friendly interface</li>
+              <li>Accessibility</li>
+              <li>URL structure</li>
+              <li>Mobile optimization</li>
+              <li>User engagement metrics (session duration, bounce rate)</li>
+              <li>ets...</li>
+            </ul>
+          </section>
+        </section>
+        <section>
+          <section>The HTML starter template</section>
+          <section>
+            <h2>Language</h2>
+            <img src="./assets/lang.PNG" alt="lang" />
+          </section>
+          <section>
+            <h2>Character Encoding</h2>
+            <img src="./assets/code.PNG" alt="encoding" />
+          </section>
+          <section>
+            <h2>Viewport</h2>
+            <img src="./assets/viewport.PNG" alt="viewport" />
+          </section>
+          <section>
+            <h2>Title and description</h2>
+            <img
+              src="./assets/title-description.PNG"
+              alt="Title and description"
+            />
+            <img src="./assets/RS-school.PNG" alt="Title and description" />
+          </section>
+        </section>
+        <section>
+          <section>
+            <p>Open Graph</p>
+            <table>
+              <tbody>
+                <tr>
+                  <th>
+                    <img
+                      class="fragment"
+                      src="./assets/link1.jpeg"
+                      alt="wrong link"
+                    />
+                  </th>
+                  <th>
+                    <img
+                      class="fragment"
+                      src="./assets/link2.jpeg"
+                      alt="right link"
+                    />
+                  </th>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+          <section>
+            <div>
+              property="og:type" / "og:url" / "og:title" / "og:description" /
+              "og:image"
+            </div>
+            <img src="./assets/og.PNG" alt="open graph" />
+          </section>
+        </section>
+        <section>
+          <p>SEO-friendly URLs</p>
+          <ul>
+            <li class="fragment">
+              <a href="#">https://example/courses/programming/html-css</a>
+            </li>
+
+            <li class="fragment">
+              <a href="#">
+                https://example/courses/
+                index.php?page=courses&category=1234&course=5678
+              </a>
+            </li>
+          </ul>
+        </section>
+        <section>
+          <section>
+            <p>Semantic Markup</p>
+            <img src="./assets/pic-1.webp" alt="semantic" />
+          </section>
+          <section>
+            <ul>
+              <li>
+                header - represents the header or top section of a webpage.
+              </li>
+              <li>nav - indicates a navigation menu.</li>
+              <li>main - contains the primary content of a webpage.</li>
+              <li>
+                section - defines a logically related group of content, such as
+                a chapter in a book or a section of news articles.
+              </li>
+              <li>
+                aside - contains content that is tangentially related to the
+                main content, often used for sidebars or additional information.
+              </li>
+              <li>
+                footer - represents the footer or bottom section of a webpage.
+              </li>
+            </ul>
+          </section>
+        </section>
+        <section>
+          <section>Validation</section>
+          <section>
+            <a href="https://validator.w3.org/"
+              >The W3C Markup Validation Service</a
+            >
+            <img src="./assets/validation.PNG" alt="validation" />
+          </section>
+        </section>
+        <section>
+          <p>You're master of SEO!</p>
+          <img src="./assets/finish.jpg" alt="finish" />
+        </section>
+      </div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+      });
+    </script>
+  </body>
+</html>
